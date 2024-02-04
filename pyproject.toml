@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-sbhtml"
+version = "0.1.0"
+description = "Startbootstrap templates for Django"
+authors = ["Kamal <kamal@koditi.my>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "sbhtml", from="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
