@@ -16,7 +16,9 @@
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         {% endblock %}
     </head>
+    {% block body_tag %}
     <body class="sb-nav-fixed">
+    {% endblock %}
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-primary">
             {% block topbar %}
             {% include 'sbhtml/includes/topbar.html' %}
